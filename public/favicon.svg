@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 150" width="48" height="72">
+  <!-- Brand of Sacrifice -->
+  <g fill="none" stroke="#dc2626" stroke-width="7" stroke-linejoin="miter" stroke-linecap="butt">
+    <!-- Vertical spine -->
+    <line x1="50" y1="5" x2="50" y2="146"/>
+    <!-- Diagonal: upper-left to lower-right -->
+    <line x1="16" y1="14" x2="84" y2="97"/>
+    <!-- Diagonal: upper-right to lower-left -->
+    <line x1="84" y1="14" x2="16" y2="97"/>
+    <!-- Diamond: lower-left to bottom -->
+    <line x1="16" y1="97" x2="50" y2="137"/>
+    <!-- Diamond: lower-right to bottom -->
+    <line x1="84" y1="97" x2="50" y2="137"/>
+  </g>
+  <!-- Trident spike tips -->
+  <g fill="#dc2626" stroke="none">
+    <polygon points="50,0 46,10 54,10"/>
+    <polygon points="11,10 20,7 15,18"/>
+    <polygon points="89,10 80,7 85,18"/>
+  </g>
+</svg>
