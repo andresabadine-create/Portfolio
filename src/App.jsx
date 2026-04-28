@@ -251,21 +251,21 @@ function App() {
                 <span>Google Calendar</span>
                 <span>Node.js</span>
                 <span>n8n</span>
-            <div className="project-item">
-              <div className="project-header">
-                <h3 className="project-name">{t.project2Name}</h3>
-                <span className="project-status status-dev">{t.project2Status}</span>
               </div>
             </div>
-              <p className="project-desc">{t.project2Desc}</p>^
+            <div className="project-item">
+                <div className="project-header">
+                  <h3 className="project-name">{t.project2Name}</h3>
+                  <span className="project-status status-dev">{t.project2Status}</span>
+                </div>
+              <p className="project-desc">{t.project2Desc}</p>
               <div className="project-tags">
                 <span>Python</span>
                 <span>Django</span>
                 <span>GitHub</span>
                 <span>REST APIs</span>
-                <span>Vercel</span>
+                <span>Docker</span>
                 <span>React</span>
-              </div>
               </div>
             </div>
           </div>
