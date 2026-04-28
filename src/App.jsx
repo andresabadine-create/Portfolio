@@ -50,6 +50,9 @@ const copy = {
     project1Desc:
       'AI-powered WhatsApp assistant for odontologic clinics: handles appointment booking, FAQs, sends reminders, integrated with Google Calendar and scheduling spreadsheets.',
     project1Status: 'In Development',
+    project2Name: 'OnClinic',
+    project2Desc: 'System for managing dental clinics: patient registration, financial management, attendance reports, inventory control and more.',
+    project2Status: 'In Development',
     servicesTitle: 'Services',
     servicesIntro: 'Core services I offer for businesses and teams.',
     service1Title: 'AI Automation Strategy',
@@ -89,6 +92,9 @@ const copy = {
     project1Desc:
       'Assistente WhatsApp com IA para clínicas odontológicas: agendamento de consultas, FAQs, envio de lembretes, integrado com Google Calendar e planilhas de agendamento.',
     project1Status: 'Em Desenvolvimento',
+    project2Name: 'OnClinic',
+    project2Desc: 'Sistema de gerenciamento de clínicas odontológicas: Cadastro de pacientes, financeiro, relatório de atendimentos, controle de estoque e mais.',
+    project2Status: 'Em Desenvolvimento',
     servicesTitle: 'Serviços',
     servicesIntro: 'Serviços principais que ofereço para empresas e equipes.',
     service1Title: 'Estratégia de Automação com IA',
@@ -245,6 +251,21 @@ function App() {
                 <span>Google Calendar</span>
                 <span>Node.js</span>
                 <span>n8n</span>
+            <div className="project-item">
+              <div className="project-header">
+                <h3 className="project-name">{t.project2Name}</h3>
+                <span className="project-status status-dev">{t.project2Status}</span>
+              </div>
+            </div>
+              <p className="project-desc">{t.project2Desc}</p>^
+              <div className="project-tags">
+                <span>Python</span>
+                <span>Django</span>
+                <span>GitHub</span>
+                <span>REST APIs</span>
+                <span>Vercel</span>
+                <span>React</span>
+              </div>
               </div>
             </div>
           </div>
